@@ -1,0 +1,16 @@
+[package]
+name = "Snale3886/Iptv-bridge" # Apna Wasmer username likhein
+version = "0.1.0"
+description = "IPTV Stream Redirector"
+
+[[command]]
+name = "run"
+module = "python"
+runner = "https://webc.org/python/python"
+
+[command.annotations]
+wasi.env = ["PYTHONPATH=/app"]
+
+[[fs]]
+mount = "/app"
+from = "."
