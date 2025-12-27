@@ -1,8 +1,7 @@
-kind: WASI
-name:Iptv-bridge
-package: Smale3886/Iptv-bridge # Jo wasmer.toml mein likha hai
-
+kind: wasi
+name: iptv-bridge
+package: Smale3886/iptv-bridge
 debug: true
-
 env:
   PORT: "8080"
+
