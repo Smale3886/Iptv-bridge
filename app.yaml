@@ -1,7 +1,0 @@
-kind: wasi
-name: iptv-bridge
-package: Smale3886/iptv-bridge
-debug: true
-env:
-  PORT: "8080"
-
